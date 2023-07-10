@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6cc29e;
+}
+
+h1{
+    text-align: center;
+    margin: 5%;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+input[type=text], input[type=phone], select, textarea{
+    width: 95%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-bottom: 1px rgb(182, 181, 181);
+    resize: vertical;
+    margin: 10px 20px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type=text]:focus{
+    width: 90%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-bottom: 2px rgb(65, 62, 62);
+    resize: vertical;
+    margin: 10px 20px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+} 
+
+input[type=phone]:focus{
+    width: 90%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-bottom: 2px rgb(65, 62, 62); 
+    resize: vertical;
+    margin: 10px 20px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+} 
+
+select:focus{
+    width: 90%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-bottom: 2px rgb(65, 62, 62); 
+    resize: vertical;
+    margin: 10px 20px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] 
+{
+    background-color: #0b201a;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-25 {width: 50%;}
+    .col-75 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-25 {width: 50%;}
+    .col-75 {width: 100%;}
+  }
